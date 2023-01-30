@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>お問い合わせフォーム</h1>
+        <div class="contact">
+            <p>名前</p>
+            <input type="text" name="name" placeholder="例)田中　太郎" required> 
+        </div>
+
+        <div class="contact">
+            <p>性別</p>
+            <label><input type="radio" name="sex" value="男性"required>男性</label>
+            <label><input type="radio" name="sex" value="女性">女性</label>
+            <label><input type="radio" name="sex" value="その他">その他</label>
+        </div>
+
+        <div class="contact">
+            <p>メールアドレス</p>
+            <input type="text" name="email" placeholder="例)abc@gmail.com" required>
+        </div>
+
+        <div class="contact">
+            <p>お問い合わせ内容</p>
+            <textarea name="otoiawase" cols="50" rows="4"></textarea>
+        </div>
+        
+        <div class="contact">
+            <input type="submit" value="送信">
+        </div>
+    </form>
+</body>
+</html>
